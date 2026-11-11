@@ -1,0 +1,15 @@
+{
+  "name": "virtual-lab",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Virtual Lab for Learning Science - RNSIT Community Project (1BCP308)",
+  "scripts": {
+    "install:all": "npm --prefix backend install && npm --prefix frontend install",
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "seed": "npm --prefix backend run seed",
+    "seed:reset": "npm --prefix backend run seed:reset",
+    "test": "npm --prefix backend test && npm --prefix frontend test",
+    "build": "npm --prefix frontend run build"
+  }
+}
